@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E1CCDD72CB1042A00DC4F5C /* Gliese_581_constellation.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E1CCDD62CB1042A00DC4F5C /* Gliese_581_constellation.json */; };
+		4E1CCDDD2CB2637D00DC4F5C /* Gliese_581_mag4.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E1CCDDA2CB2637D00DC4F5C /* Gliese_581_mag4.json */; };
+		4E1CCDDE2CB2637D00DC4F5C /* Gliese_581_mag6.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E1CCDDB2CB2637D00DC4F5C /* Gliese_581_mag6.json */; };
+		4E1CCDDF2CB2637D00DC4F5C /* Gliese_581_mag8.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E1CCDDC2CB2637D00DC4F5C /* Gliese_581_mag8.json */; };
+		4E1CCDE32CB2638600DC4F5C /* K2-18_mag6.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E1CCDE02CB2638600DC4F5C /* K2-18_mag6.json */; };
+		4E1CCDE42CB2638600DC4F5C /* K2-18_mag4.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E1CCDE12CB2638600DC4F5C /* K2-18_mag4.json */; };
+		4E1CCDE52CB2638600DC4F5C /* K2-18_mag8.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E1CCDE22CB2638600DC4F5C /* K2-18_mag8.json */; };
+		4E1CCDE72CB27A5500DC4F5C /* PlanetSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1CCDE62CB27A5500DC4F5C /* PlanetSelectionViewController.swift */; };
+		4E1CCDE92CB283D200DC4F5C /* K2-18_constellation.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E1CCDE82CB283D200DC4F5C /* K2-18_constellation.json */; };
+		4E94E9022C99C0FF00B63917 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E94E9012C99C0FF00B63917 /* Star.swift */; };
+		4E94E9062C99C15200B63917 /* StarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E94E9052C99C15200B63917 /* StarViewModel.swift */; };
+		4ED652C22C8EAED0002DD12C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED652C12C8EAED0002DD12C /* AppDelegate.swift */; };
+		4ED652C42C8EAED0002DD12C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED652C32C8EAED0002DD12C /* SceneDelegate.swift */; };
+		4ED652C62C8EAED0002DD12C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED652C52C8EAED0002DD12C /* ViewController.swift */; };
+		4ED652CB2C8EAED1002DD12C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ED652CA2C8EAED1002DD12C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4ED652D52C8EAED1002DD12C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ED652B62C8EAED0002DD12C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ED652BD2C8EAED0002DD12C;
+			remoteInfo = testStar;
+		};
+		4ED652DF2C8EAED1002DD12C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ED652B62C8EAED0002DD12C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ED652BD2C8EAED0002DD12C;
+			remoteInfo = testStar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E1CCDD62CB1042A00DC4F5C /* Gliese_581_constellation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Gliese_581_constellation.json; sourceTree = "<group>"; };
+		4E1CCDDA2CB2637D00DC4F5C /* Gliese_581_mag4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Gliese_581_mag4.json; sourceTree = "<group>"; };
+		4E1CCDDB2CB2637D00DC4F5C /* Gliese_581_mag6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Gliese_581_mag6.json; sourceTree = "<group>"; };
+		4E1CCDDC2CB2637D00DC4F5C /* Gliese_581_mag8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Gliese_581_mag8.json; sourceTree = "<group>"; };
+		4E1CCDE02CB2638600DC4F5C /* K2-18_mag6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "K2-18_mag6.json"; sourceTree = "<group>"; };
+		4E1CCDE12CB2638600DC4F5C /* K2-18_mag4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "K2-18_mag4.json"; sourceTree = "<group>"; };
+		4E1CCDE22CB2638600DC4F5C /* K2-18_mag8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "K2-18_mag8.json"; sourceTree = "<group>"; };
+		4E1CCDE62CB27A5500DC4F5C /* PlanetSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetSelectionViewController.swift; sourceTree = "<group>"; };
+		4E1CCDE82CB283D200DC4F5C /* K2-18_constellation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "K2-18_constellation.json"; sourceTree = "<group>"; };
+		4E94E9012C99C0FF00B63917 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		4E94E9052C99C15200B63917 /* StarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewModel.swift; sourceTree = "<group>"; };
+		4ED652BE2C8EAED0002DD12C /* ExoskyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExoskyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ED652C12C8EAED0002DD12C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4ED652C32C8EAED0002DD12C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4ED652C52C8EAED0002DD12C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4ED652CA2C8EAED1002DD12C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4ED652CF2C8EAED1002DD12C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ED652D42C8EAED1002DD12C /* ExoskyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExoskyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ED652DE2C8EAED1002DD12C /* ExoskyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExoskyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ED652BB2C8EAED0002DD12C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ED652D12C8EAED1002DD12C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ED652DB2C8EAED1002DD12C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E9BABAD2CB290460007E7ED /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4E1CCDE82CB283D200DC4F5C /* K2-18_constellation.json */,
+				4E1CCDD62CB1042A00DC4F5C /* Gliese_581_constellation.json */,
+				4E1CCDDA2CB2637D00DC4F5C /* Gliese_581_mag4.json */,
+				4E1CCDDB2CB2637D00DC4F5C /* Gliese_581_mag6.json */,
+				4E1CCDDC2CB2637D00DC4F5C /* Gliese_581_mag8.json */,
+				4E1CCDE12CB2638600DC4F5C /* K2-18_mag4.json */,
+				4E1CCDE02CB2638600DC4F5C /* K2-18_mag6.json */,
+				4E1CCDE22CB2638600DC4F5C /* K2-18_mag8.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		4ED652B52C8EAED0002DD12C = {
+			isa = PBXGroup;
+			children = (
+				4ED652C02C8EAED0002DD12C /* ExoskyApp */,
+				4ED652BF2C8EAED0002DD12C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4ED652BF2C8EAED0002DD12C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ED652BE2C8EAED0002DD12C /* ExoskyApp.app */,
+				4ED652D42C8EAED1002DD12C /* ExoskyAppTests.xctest */,
+				4ED652DE2C8EAED1002DD12C /* ExoskyAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ED652C02C8EAED0002DD12C /* ExoskyApp */ = {
+			isa = PBXGroup;
+			children = (
+				4E9BABAD2CB290460007E7ED /* Data */,
+				4ED652C12C8EAED0002DD12C /* AppDelegate.swift */,
+				4ED652C32C8EAED0002DD12C /* SceneDelegate.swift */,
+				4ED652C52C8EAED0002DD12C /* ViewController.swift */,
+				4E1CCDE62CB27A5500DC4F5C /* PlanetSelectionViewController.swift */,
+				4E94E9012C99C0FF00B63917 /* Star.swift */,
+				4E94E9052C99C15200B63917 /* StarViewModel.swift */,
+				4ED652CA2C8EAED1002DD12C /* Assets.xcassets */,
+				4ED652CF2C8EAED1002DD12C /* Info.plist */,
+			);
+			path = ExoskyApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ED652BD2C8EAED0002DD12C /* ExoskyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ED652E82C8EAED1002DD12C /* Build configuration list for PBXNativeTarget "ExoskyApp" */;
+			buildPhases = (
+				4ED652BA2C8EAED0002DD12C /* Sources */,
+				4ED652BB2C8EAED0002DD12C /* Frameworks */,
+				4ED652BC2C8EAED0002DD12C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExoskyApp;
+			productName = testStar;
+			productReference = 4ED652BE2C8EAED0002DD12C /* ExoskyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4ED652D32C8EAED1002DD12C /* ExoskyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ED652EB2C8EAED1002DD12C /* Build configuration list for PBXNativeTarget "ExoskyAppTests" */;
+			buildPhases = (
+				4ED652D02C8EAED1002DD12C /* Sources */,
+				4ED652D12C8EAED1002DD12C /* Frameworks */,
+				4ED652D22C8EAED1002DD12C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ED652D62C8EAED1002DD12C /* PBXTargetDependency */,
+			);
+			name = ExoskyAppTests;
+			productName = testStarTests;
+			productReference = 4ED652D42C8EAED1002DD12C /* ExoskyAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4ED652DD2C8EAED1002DD12C /* ExoskyAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ED652EE2C8EAED1002DD12C /* Build configuration list for PBXNativeTarget "ExoskyAppUITests" */;
+			buildPhases = (
+				4ED652DA2C8EAED1002DD12C /* Sources */,
+				4ED652DB2C8EAED1002DD12C /* Frameworks */,
+				4ED652DC2C8EAED1002DD12C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ED652E02C8EAED1002DD12C /* PBXTargetDependency */,
+			);
+			name = ExoskyAppUITests;
+			productName = testStarUITests;
+			productReference = 4ED652DE2C8EAED1002DD12C /* ExoskyAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ED652B62C8EAED0002DD12C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					4ED652BD2C8EAED0002DD12C = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					4ED652D32C8EAED1002DD12C = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 4ED652BD2C8EAED0002DD12C;
+					};
+					4ED652DD2C8EAED1002DD12C = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 4ED652BD2C8EAED0002DD12C;
+					};
+				};
+			};
+			buildConfigurationList = 4ED652B92C8EAED0002DD12C /* Build configuration list for PBXProject "ExoskyApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4ED652B52C8EAED0002DD12C;
+			productRefGroup = 4ED652BF2C8EAED0002DD12C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ED652BD2C8EAED0002DD12C /* ExoskyApp */,
+				4ED652D32C8EAED1002DD12C /* ExoskyAppTests */,
+				4ED652DD2C8EAED1002DD12C /* ExoskyAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ED652BC2C8EAED0002DD12C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E1CCDE52CB2638600DC4F5C /* K2-18_mag8.json in Resources */,
+				4E1CCDDD2CB2637D00DC4F5C /* Gliese_581_mag4.json in Resources */,
+				4E1CCDE92CB283D200DC4F5C /* K2-18_constellation.json in Resources */,
+				4E1CCDDE2CB2637D00DC4F5C /* Gliese_581_mag6.json in Resources */,
+				4ED652CB2C8EAED1002DD12C /* Assets.xcassets in Resources */,
+				4E1CCDE32CB2638600DC4F5C /* K2-18_mag6.json in Resources */,
+				4E1CCDE42CB2638600DC4F5C /* K2-18_mag4.json in Resources */,
+				4E1CCDDF2CB2637D00DC4F5C /* Gliese_581_mag8.json in Resources */,
+				4E1CCDD72CB1042A00DC4F5C /* Gliese_581_constellation.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ED652D22C8EAED1002DD12C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ED652DC2C8EAED1002DD12C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ED652BA2C8EAED0002DD12C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E1CCDE72CB27A5500DC4F5C /* PlanetSelectionViewController.swift in Sources */,
+				4ED652C62C8EAED0002DD12C /* ViewController.swift in Sources */,
+				4ED652C22C8EAED0002DD12C /* AppDelegate.swift in Sources */,
+				4E94E9062C99C15200B63917 /* StarViewModel.swift in Sources */,
+				4ED652C42C8EAED0002DD12C /* SceneDelegate.swift in Sources */,
+				4E94E9022C99C0FF00B63917 /* Star.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ED652D02C8EAED1002DD12C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ED652DA2C8EAED1002DD12C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4ED652D62C8EAED1002DD12C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ED652BD2C8EAED0002DD12C /* ExoskyApp */;
+			targetProxy = 4ED652D52C8EAED1002DD12C /* PBXContainerItemProxy */;
+		};
+		4ED652E02C8EAED1002DD12C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ED652BD2C8EAED0002DD12C /* ExoskyApp */;
+			targetProxy = 4ED652DF2C8EAED1002DD12C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4ED652E62C8EAED1002DD12C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4ED652E72C8EAED1002DD12C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ED652E92C8EAED1002DD12C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2CWB9A2WN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExoskyApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = parkch.exosky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4ED652EA2C8EAED1002DD12C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2CWB9A2WN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExoskyApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = parkch.exosky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4ED652EC2C8EAED1002DD12C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = parkch.testStarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExoskyApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ExoskyApp";
+			};
+			name = Debug;
+		};
+		4ED652ED2C8EAED1002DD12C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = parkch.testStarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExoskyApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ExoskyApp";
+			};
+			name = Release;
+		};
+		4ED652EF2C8EAED1002DD12C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = parkch.testStarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = testStar;
+			};
+			name = Debug;
+		};
+		4ED652F02C8EAED1002DD12C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = parkch.testStarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = testStar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ED652B92C8EAED0002DD12C /* Build configuration list for PBXProject "ExoskyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ED652E62C8EAED1002DD12C /* Debug */,
+				4ED652E72C8EAED1002DD12C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ED652E82C8EAED1002DD12C /* Build configuration list for PBXNativeTarget "ExoskyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ED652E92C8EAED1002DD12C /* Debug */,
+				4ED652EA2C8EAED1002DD12C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ED652EB2C8EAED1002DD12C /* Build configuration list for PBXNativeTarget "ExoskyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ED652EC2C8EAED1002DD12C /* Debug */,
+				4ED652ED2C8EAED1002DD12C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ED652EE2C8EAED1002DD12C /* Build configuration list for PBXNativeTarget "ExoskyAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ED652EF2C8EAED1002DD12C /* Debug */,
+				4ED652F02C8EAED1002DD12C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ED652B62C8EAED0002DD12C /* Project object */;
+}
