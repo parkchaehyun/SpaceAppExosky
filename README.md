@@ -1,5 +1,8 @@
 # 🪐 Exosky iOS App 📱
-![Alt text](./Data/image/preview.png)
+
+
+https://github.com/user-attachments/assets/bf267009-ed46-4148-a381-6bd5a0260967
+
 
 Ever wondered what the night sky looks like from an alien planet? **Exosky** takes you on a journey through the stars, allowing you to explore the universe from the perspective of distant exoplanets. See familiar constellations in a new light and experience the vastness of space like never before.
 
@@ -10,7 +13,7 @@ With Exosky, you can:
 - Get creative by drawing your own constellations in uncharted skies!
 
 Embark on an interstellar adventure and discover the cosmos from an entirely new viewpoint.
-
+![Alt text](./Data/image/preview.png)
 ---
 
 ## Repository Structure
