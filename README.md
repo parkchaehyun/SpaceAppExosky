@@ -1,5 +1,5 @@
 # 🪐 Exosky iOS App 📱
-
+*Created for the [NASA Space Apps Challenge 2024](https://www.spaceappschallenge.org/nasa-space-apps-2024/challenges/exosky/)*  
 
 https://github.com/user-attachments/assets/bf267009-ed46-4148-a381-6bd5a0260967
 
