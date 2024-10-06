@@ -13,7 +13,7 @@ With Exosky, you can:
 - Get creative by drawing your own constellations in uncharted skies!
 
 Embark on an interstellar adventure and discover the cosmos from an entirely new viewpoint.
-![Alt text](./Data/image/preview.png)
+
 ---
 
 ## Repository Structure
@@ -36,6 +36,8 @@ The `App` folder contains the Xcode project for the Exosky iOS app, written in *
 
 ---
 ## How to Run
+
+![Alt text](./Data/image/preview.png)
 
 1. **Download from the App Store (when available):**
    - Search for "Exosky" on the App Store to download the app directly onto your iPhone or iPad. *(Currently under review)*
