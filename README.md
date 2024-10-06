@@ -30,3 +30,15 @@ The Python code processes this raw data to create the files used by the app for 
 ### `App` Folder
 
 The `App` folder contains the Xcode project for the Exosky iOS app, written in **Swift**, utilizing **UIKit** and **SceneKit** to provide an interactive and visually immersive star-gazing experience.
+
+---
+## How to Run
+
+1. **Download from the App Store (when available):**
+   - Search for "Exosky" on the App Store to download the app directly onto your iPhone or iPad. *(Currently under review)*
+
+2. **Build with Xcode:**
+   - Clone the repository.
+   - Open the project (inside the "App" folder) in Xcode on your Mac.
+   - Connect your iPhone or use the iOS Simulator to build and run the app.
+   - Ensure you have the latest version of Xcode installed.
