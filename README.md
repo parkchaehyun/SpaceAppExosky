@@ -10,3 +10,23 @@ With Exosky, you can:
 - Get creative by drawing your own constellations in uncharted skies!
 
 Embark on an interstellar adventure and discover the cosmos from an entirely new viewpoint.
+
+---
+
+## Repository Structure
+
+This repository consists of two main folders: `Data` and `App`.
+
+### `Data` Folder
+
+The `Data` folder contains all the necessary data used in the app, along with the Python scripts that were utilized to generate this data from various space agency sources. These include:
+
+- **ESA** and **Gaia DR3 Catalog**
+- **Hipparcos Catalog** from the European Space Agency
+- **Constellation Data** from **Stellarium**
+
+The Python code processes this raw data to create the files used by the app for star and constellation visualization.
+
+### `App` Folder
+
+The `App` folder contains the Xcode project for the Exosky iOS app, written in **Swift**, utilizing **UIKit** and **SceneKit** to provide an interactive and visually immersive star-gazing experience.
