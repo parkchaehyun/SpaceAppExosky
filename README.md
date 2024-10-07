@@ -39,8 +39,8 @@ The `App` folder contains the Xcode project for the Exosky iOS app, written in *
 
 ![Alt text](./Data/image/preview.png)
 
-1. **Download from the App Store (when available):**
-   - Search for "Exosky" on the App Store to download the app directly onto your iPhone or iPad. *(Currently under review)*
+1. **Download from the App Store:**
+   - Search for "Exosky" on the App Store or [click here](https://apps.apple.com/us/app/exosky/id6736586407) to download the app directly onto your iPhone or iPad.
 
 2. **Build with Xcode:**
    - Clone the repository.
